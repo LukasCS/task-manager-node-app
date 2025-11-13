@@ -20,3 +20,44 @@ A simple full-stack to-do list application for managing tasks with create, read,
 
 ## Setup and Installation
 1. **Clone the Repository:**
+
+   git clone https://github.com/LukasCS/task-manager-node-app.git
+   cd task-manager-node-app
+
+
+2. **Backend Setup:**
+- Navigate to backend:
+  ```
+  cd backend
+  npm install
+  ```
+- Run the server:
+  ```
+  node server.js
+  ```
+- Backend runs on http://localhost:5000. Test: Open http://localhost:5000/tasks in browser (should show empty array `[]`).
+
+3. **Frontend Setup:**
+- Navigate to frontend:
+  ```
+  cd ../frontend
+  npm install
+  ```
+- Run the app:
+  ```
+  npm start
+  ```
+- Frontend opens at http://localhost:3000. Add tasks—the backend handles storage!
+
+## Screenshots
+- Empty state: ![Empty State](screenshots/empty-state.png)
+- Adding and listing tasks: ![Active Tasks](screenshots/active-tasks.png)
+- Editing and toggling: ![Edit Mode](screenshots/edit-mode.png)
+
+## Contributing
+This project is for personal portfolio use, but feedback is welcome! Fork and submit pull requests.
+
+## License
+MIT License—feel free to use and modify.
+
+Built by LukasCS for resume/portfolio. See my full portfolio at https://lukascs.github.io/csresume/.
