@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Environment variables (for secrets like DB credentials)
+.env
+
+# Logs and temp files
+*.log
+temp/
+tmp/
+
+# Database files (if local, like SQLite—don't upload actual data)
+*.db
+*.sqlite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
