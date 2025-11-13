@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px 0;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.completed {
+  opacity: 0.7;
+  background: #e9ecef;
+}
+
+.task-title {
+  flex-grow: 1;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.task-title:hover {
+  background: #e9ecef;
+  border-radius: 4px;
+}
+
+.task-actions button {
+  background: #dc3545;
+  margin-left: 5px;
+}
+
+.task-actions button:first-of-type {
+  background: #28a745;
+}
+
+.edit-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.edit-form input {
+  flex-grow: 1;
+  margin-right: 10px;
+  width: auto;
+}
+
+.edit-form button:first-of-type {
+  background: #28a745;
+}
+
+.edit-form button:last-of-type {
+  background: #6c757d;
+}
+
+p {
+  color: #666;
+  font-style: italic;
+}
