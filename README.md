@@ -50,9 +50,9 @@ A simple full-stack to-do list application for managing tasks with create, read,
 - Frontend opens at http://localhost:3000. Add tasks—the backend handles storage!
 
 ## Screenshots
-- Live Demo: ![Live Demo](assets/task-manager-demo.gif)
-- Adding and listing tasks: ![Active Tasks](assets/task-manager-active.png)
-- Editing and toggling: ![Edit Mode](assets/task-manager-edit.png)
+- Live Demo: ![Live Demo](screenshots/task-manager-demo.gif)
+- Adding and listing tasks: ![Active Tasks](screenshots/task-manager-active.png)
+- Editing and toggling: ![Edit Mode](screenshots/task-manager-edit.png)
 
 ## Contributing
 This project is for personal portfolio use, but feedback is welcome! Fork and submit pull requests.
